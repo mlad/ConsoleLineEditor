@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <IsPackable>true</IsPackable>
+    <NoWarn>$(NoWarn);NU5104</NoWarn>
+    <AssemblyName>ConsoleLineEditor</AssemblyName>
+    <RootNamespace>ConsoleLineEditor</RootNamespace>
+    <PackageId>ConsoleLineEditor</PackageId>
+    <Description>Multiline console text editor. This is a fork of the RadLine library</Description>
+    <Authors />
+    <Copyright />
+    <PackageIcon />
+    <PackageProjectUrl>https://github.com/mlad/ConsoleLineEditor</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mlad/ConsoleLineEditor</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseUrl></PackageLicenseUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Spectre.Console" Version="0.50.1-preview.0.5" />
+    <PackageReference Update="Roslynator.Analyzers" Version="4.13.1" />
+    <PackageReference Update="MinVer" Version="6.0.0" />
+    <PackageReference Remove="StyleCop.Analyzers" />
+  </ItemGroup>
+
+</Project>
