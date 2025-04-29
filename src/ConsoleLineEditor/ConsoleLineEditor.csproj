@@ -19,10 +19,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Spectre.Console" Version="0.50.1-preview.0.5" />
     <PackageReference Update="Roslynator.Analyzers" Version="4.13.1" />
     <PackageReference Update="MinVer" Version="6.0.0" />
     <PackageReference Remove="StyleCop.Analyzers" />
+    <PackageReference Include="mlad.Fork.Spectre.Console" Version="0.50.1-preview.0.6" />
   </ItemGroup>
 
 </Project>

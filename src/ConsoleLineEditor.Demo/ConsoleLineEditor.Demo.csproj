@@ -18,8 +18,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Spectre.Console" Version="0.50.1-preview.0.5" />
       <PackageReference Remove="StyleCop.Analyzers" />
+      <PackageReference Include="mlad.Fork.Spectre.Console" Version="0.50.1-preview.0.6" />
     </ItemGroup>
 
 </Project>
