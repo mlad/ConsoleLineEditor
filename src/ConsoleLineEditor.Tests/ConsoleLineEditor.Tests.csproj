@@ -18,7 +18,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
-    <PackageReference Include="mlad.Fork.Spectre.Console.Testing" Version="0.50.1-preview.0.6" />
+    <PackageReference Include="mlad.Fork.Spectre.Console.Testing" Version="0.0.0-preview.0.784" />
     <PackageReference Include="Shouldly" Version="4.3.0" />
     <PackageReference Include="xunit" Version="2.9.3" />
     <PackageReference Update="Roslynator.Analyzers" Version="4.13.1" />
