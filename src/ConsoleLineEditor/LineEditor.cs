@@ -7,7 +7,6 @@ using ConsoleLineEditor.Commands;
 using ConsoleLineEditor.Internal;
 using ConsoleLineEditor.Internal.Extensions;
 using Spectre.Console;
-using Spectre.Console.Advanced;
 
 namespace ConsoleLineEditor;
 

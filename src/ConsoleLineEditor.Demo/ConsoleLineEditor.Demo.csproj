@@ -19,7 +19,10 @@
 
     <ItemGroup>
       <PackageReference Remove="StyleCop.Analyzers" />
-      <PackageReference Include="mlad.Fork.Spectre.Console" Version="0.0.0-preview.0.784" />
+      <PackageReference Include="Spectre.Console" Version="0.55.3-alpha.0.7" />
+      <PackageReference Update="Microsoft.SourceLink.GitHub" Version="10.0.203" />
+      <PackageReference Update="MinVer" Version="7.0.0" />
+      <PackageReference Update="Roslynator.Analyzers" Version="4.15.0" />
     </ItemGroup>
 
 </Project>
